@@ -1,0 +1,58 @@
+/* Compact Form Styling */
+form {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form .form-label {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.95rem; /* Slightly smaller label */
+}
+
+form .form-control,
+form .form-select {
+  border-radius: 6px;
+  padding: 8px 10px;  /* Reduced padding for smaller height */
+  font-size: 0.95rem;
+  border: 1px solid #ddd;
+  margin-top: 6px;
+}
+
+form .form-control:focus,
+form .form-select:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 2px rgba(74,144,226,0.2);
+}
+
+form button[type="submit"] {
+  width: 100%;
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px; /* Reduced height */
+  font-size: 0.95rem;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 18px;
+  transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+  background-color: #357abd;
+}
+
+form .form-select {
+  margin-top: 16px; /* Reduced spacing */
+}
+
+@media (max-width: 500px) {
+  form {
+    padding: 16px;
+  }
+}

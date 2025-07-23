@@ -1,0 +1,23 @@
+.AppProducts{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 90vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.AppProducts > span {
+    border: 2px solid orange;
+    padding: 5px 10px ;
+    border-radius: 5px;
+}
+.AppProducts > span:hover{
+    border: 2px solid orange;
+    padding: 5px 10px ;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    background-color: red;
+}

@@ -1,0 +1,51 @@
+/* Navbar Styling */
+.navbar {
+  padding: 12px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #d1e9ff;
+}
+
+.navbar-nav {
+  display: flex;
+  text-align: end !important;
+  gap: 20px;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #f0f0f0;
+}
+
+/* Active Link Style (optional) */
+.navbar-nav a.active {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-weight: bold;
+}
+
+
+
+@media (max-width: 576px) {
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
