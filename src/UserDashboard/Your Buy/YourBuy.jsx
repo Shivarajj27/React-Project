@@ -35,7 +35,7 @@ const YourBuy = () => {
     }
     return (
   <div>
-    {state.orderProduct.length >= 0 ? (
+    {Array.isArray(state?.orderProduct) && state.orderProduct.length >= 0 ? (
       <div className="product-grid">
         {state.orderProduct.map((data, index) => {
           console.log(data);
