@@ -99,7 +99,7 @@ catch(err){
         ))}
       </div>
     ) : (
-      "No jobs found"
+      "No Products found"
     )}
   </div>
 );
