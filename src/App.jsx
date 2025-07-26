@@ -10,7 +10,7 @@ import Home from './SellerDashboard/Home'
 import Contact from './Contact/Contact'
 import UserHome from './UserDashboard/UserHome/UserHome'
 import YourBuy from './UserDashboard/Your Buy/YourBuy'
-import Cart from './UserDashboard/Cart/Cart'
+// import Cart from './UserDashboard/Cart/Cart'
 import Notifications from './SellerDashboard/Notifications'
 import Landing from './Landing'
 
@@ -29,7 +29,7 @@ const App = () => {
 
         <Route path="/UserDashboard" element={<UserDashboard/>}/>
         <Route path="/UserHome" element={<UserHome/>}/>
-        <Route path="Cart" element={<Cart/>}/>
+        {/* <Route path="Cart" element={<Cart/>}/> */}
         <Route path="/YourBuy" element={<YourBuy/>}/>
         <Route path="/Contact" element={<Contact/>}/>
       </Routes>

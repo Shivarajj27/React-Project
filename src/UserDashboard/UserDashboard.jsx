@@ -1,6 +1,6 @@
 import React from 'react'
 import "./UserDashboard.css"
-import Allproducts from './AllProducts/Allproducts'
+// import Allproducts from './AllProducts/Allproducts'
 import Display from './Display/Display'
 const UserDashboard = () => {
   return (
