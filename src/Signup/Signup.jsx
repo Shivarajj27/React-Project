@@ -17,6 +17,10 @@ const Signup = () => {
     const formRef = useRef(null)
 const HandleEvent = async (e)=>{
   e.preventDefault()
+  if (signup.password.length < 6) {
+      alert("Password must be at least 6 characters long")
+      return
+    }
 try{
   const createaccount = await createUserWithEmailAndPassword(Authentication,signup.email,signup.password)
   // setSignup({name:"",email:"",password:"",role:""})
