@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { collection, doc ,getDoc, getDocs, updateDoc, arrayUnion } from 'firebase/firestore'
 import { db } from '../../Configure'
-import "./Userhome.css"
+import "./UserHome.css"
 import { Modal , Form , Button} from 'react-bootstrap'
 
 
